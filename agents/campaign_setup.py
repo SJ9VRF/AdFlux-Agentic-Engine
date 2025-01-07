@@ -1,4 +1,6 @@
 # agents/campaign_setup.py
+# 1. Campaign Setup Agent (agents/campaign_setup.py)
+# This agent is responsible for setting up the campaign, including defining the objective, target audience, ad formats, and budget. It uses an LLM to recommend optimal strategies.
 
 from models.llm import generate_campaign_recommendations
 
