@@ -1,3 +1,5 @@
+# AdFlux Agentic Engine vs Traditional
+
 ## 1. Modular and Scalable Architecture
 
 **In Traditional Systems**:
