@@ -15,7 +15,7 @@ This AdFlux Agentic Engine is a agentic workflow benefits from llms and advertis
 
 ## Usage
 
-### 1. Setup Campaign
+### 1. Setup Campaign Agent
 The CampaignSetupAgent initializes the campaign by defining the objective, target audience, ad format, budget, and bidding strategy. It uses LLMs to suggest campaign recommendations.
 
 ```bash
@@ -26,7 +26,7 @@ campaign_agent = CampaignSetupAgent("Increase Sales", {"age": 25, "location": "U
 campaign_data = campaign_agent.setup_campaign()
 ```
 
-### 2. Create Ad
+### 2. Create Ad Agent
 The AdCreationAgent generates ad creatives dynamically based on product type and target audience. It uses LLMs to create optimized ad copy.
 
 ```bash
@@ -37,7 +37,7 @@ ad_creation_agent = AdCreationAgent("Tech Gadgets", {"age": 25, "location": "US"
 ad_data = ad_creation_agent.create_ad()
 ```
 
-### 3. Run Auction
+### 3. Run Auction Agent
 The AdAuctionAgent runs the ad auction, adjusting bids and relevance in real-time based on user data.
 
 ```bash
@@ -48,7 +48,7 @@ ad_auction_agent = AdAuctionAgent(0.75, 0.85, {"interest": "tech"})
 auction_result = ad_auction_agent.run_auction()
 ```
 
-### 4. Track Performance
+### 4. Track Performance Agent
 The PerformanceTrackingAgent tracks key performance metrics like CTR, CPC, and ROAS.
 
 ```bash
@@ -59,7 +59,7 @@ performance_tracking_agent = PerformanceTrackingAgent(ad_data["ad_copy"])
 performance_data = performance_tracking_agent.track_performance()
 ```
 
-### 5. Optimize Campaign
+### 5. Optimize Campaign Agent
 The OptimizationAgent uses real-time data to optimize campaign strategies, including adjusting bids, creatives, and targeting.
 
 ```bash
@@ -70,7 +70,7 @@ optimization_agent = OptimizationAgent(campaign_data, performance_data)
 optimized_campaign = optimization_agent.optimize_campaign()
 ```
 
-### 6. Process Feedback
+### 6. Process Feedback Agent
 The FeedbackAgent processes feedback and adjusts campaign strategies based on performance data.
 
 ```bash
@@ -81,7 +81,7 @@ feedback_agent = FeedbackAgent(ad_data, performance_data, optimized_campaign)
 updated_ad_data, updated_campaign_data = feedback_agent.process_feedback()
 ```
 
-### 7. Machine Learning Integration
+### 7. Machine Learning Integration Agent
 The MachineLearningAgent learns from past campaigns and predicts future performance to improve targeting and bidding strategies.
 
 ```bash
@@ -92,7 +92,7 @@ machine_learning_agent = MachineLearningAgent(past_campaign_data)
 predicted_performance = machine_learning_agent.predict_performance()
 ```
 
-### 8. Main Execution
+### 8. Main Execution Agent
 Run the entire process by executing the main.py script, which orchestrates all the agents.
 ```bash
 python main.py
