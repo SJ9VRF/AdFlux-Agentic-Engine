@@ -1,0 +1,30 @@
+# requirements.txt
+
+# OpenAI API for LLM integration (if you're using GPT-3, GPT-4, or other models)
+openai==0.27.0
+
+# Data manipulation and processing
+pandas==1.5.3
+numpy==1.24.1
+
+# Requests library for HTTP requests (optional, for API integrations)
+requests==2.28.1
+
+# Logging utility
+loguru==0.6.0
+
+# Machine Learning (optional, for more advanced ML functionality)
+scikit-learn==1.0.2
+tensorflow==2.10.0  # Or another framework of choice
+
+# If using dotenv to manage environment variables (e.g., API keys)
+python-dotenv==0.21.0
+
+# If you want to simulate environment like Flask or FastAPI for web integrations
+flask==2.2.2
+
+# If you’re working with async features in Python
+aiohttp==3.8.1
+
+# Miscellaneous dependencies (optional, you can add more as needed)
+tqdm==4.64.0
