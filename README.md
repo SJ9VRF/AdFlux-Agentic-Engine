@@ -24,7 +24,8 @@ This AdFlux Agentic Engine is a agentic workflow benefits from llms and advertis
 | **Resource Efficiency**       | High manual workload, inefficient resource allocation | Automated processes, efficient resource use               |
 | **Adaptability to Change**    | Slow to adapt to new trends                           | Easily adaptable to new trends and strategies             |
 
-![output-4](https://github.com/user-attachments/assets/66f289f9-ab1f-4139-aa25-4a43987504ef)
+<img width="1013" alt="Screenshot 2025-01-21 at 10 02 19 AM" src="https://github.com/user-attachments/assets/47709717-c731-48a8-afb9-34b9225331fa" />
+
 
 
 ## Usage
